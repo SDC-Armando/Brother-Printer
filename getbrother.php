@@ -31,6 +31,3 @@ while( list( $key, $val ) = each( $myHexVals ) )
 }
 
 echo trim( $theseVals[ $argv[ 2 ] ] );
-
-//syslog( LOG_INFO, "IP:{$argv[ 1 ]},CODE:{$argv[ 2 ]},RESULT:{$theseVals[ $argv[ 2 ] ]}" );
-
